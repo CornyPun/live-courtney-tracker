@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Live Courtney Tracker</title>
+
+  <link rel="icon" href="favicon/live-favicon-transparent.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="website-heading-container">
+      <div class="live-heading-container">
+        <div class="live-circle"></div>
+        <h1 class="live-heading">LIVE</h1>
+      </div>
+      <h1 class="courtney-tracker-heading">Courtney Tracker</h1>
+    </div>
+    <div class="left-container left-loading">
+      <div class="icon-container">
+        <img class="icon" src="icons/Sleep.png" alt="sleep">
+        
+        <div class="time-container">
+          <h2 class="time-subtitle">March 30, 2024</h2>
+          <h1 class="time-title">2:42:01pm</h1>
+        </div>
+      </div>
+    </div>
+    <div class="right-container right-loading">
+      <div class="event-main-container">
+        <h1 class="event-title">Loading</h1>
+        <div class="event-property-button-container">
+          <div class="event-time-button event-property-button-loading event-property-button-flash0">
+            <img src="button-icons/time.svg" alt="time">
+            <!--
+            <div class="event-time-tooltip">
+              <p>Time</p>
+            </div>
+            -->
+          </div>
+          <div class="event-location-button event-property-button-loading event-property-button-flash1">
+            <img src="button-icons/location.svg" alt="location">
+            <!--
+            <div class="event-location-tooltip">
+              <p>Location</p>
+            </div>
+            -->
+          </div>
+          <div class="event-schedule-button event-property-button-loading event-property-button-flash2">
+            <img src="button-icons/schedule.svg" alt="schedule">
+            <!--
+            <div class="event-schedule-tooltip">
+              <p>Schedule</p>
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
+      <div class="event-property-container">
+        <h2 class="event-property-heading text-hidden"></h2>
+        <h3 class="event-property-description text-hidden"></h3>
+        <div class="schedule-container">
+          <iframe class="schedule" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FEdmonton&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&mode=AGENDA&showCalendars=0&showTz=0&src=Y2UzNzJiODEwODdiNmM0MmI0NTdjNjc5OWMwODk0OWQ3ODZmZmU3ZDIyYWE0ZDI1NDc5YmExN2U5ZGVlODA5YUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NTM4NjY5YjJiZDljZjAzY2M4ZTAwZjYyMjliOTg1NjM2ZDM5NmQ0YmVmNWNmNWI4N2NlYmUzNjUwMzVjZDViMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Yzc4Y2ZlZDgwZTJiOWE0ZTk2MWNmZjgyN2Q4NjA2NjA3M2ViZTViZjA3YzAxNmUyZDE0MjljM2IxMzZjZTg2OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YTRjOTAyMmY1NDI1N2U4NGFjZDY1MzI3ZDI2ZTc2MjcyNWI4Nzk4NTQ2NjIyZDRhNGY0YWYyNGVjZDY0NzViZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NzZhNmYyYjI3YjIxNjRiNTlmMzI4ZDJlOGI3YjYxZTVkNDNiOGEyNzk2OGQ3NWZlOGI2YTdhOWIxNDIxMWJkN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4uY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23795548&color=%23616161&color=%234285F4&color=%23F6BF26&color=%2333B679&color=%237CB342" style="border-width:0" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
